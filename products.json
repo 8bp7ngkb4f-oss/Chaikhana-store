@@ -1,44 +1,95 @@
+
 [
   {
-    "id": "tea-01",
-    "name": { "fr": "Thé signature CHAIKHANA", "en": "CHAIKHANA Signature Tea" },
-    "category": { "fr": "Création maison", "en": "House blend" },
-    "description": {
-      "fr": "Un mélange signature à personnaliser selon votre sélection de thés.",
-      "en": "A signature blend to be customized with your selected teas."
+    "id": "milky-oolong",
+    "name": {
+      "fr": "Milky Oolong",
+      "en": "Milky Oolong"
     },
-    "price": 0,
-    "currency": "eur",
+    "category": {
+      "fr": "Thé Oolong",
+      "en": "Oolong Tea"
+    },
+    "description": {
+      "fr": "Un thé délicat aux notes douces et crémeuses.",
+      "en": "A delicate tea with soft and creamy notes."
+    },
+    "price": 21000,
+    "currency": "sek",
     "weight": "100 g",
     "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=1000&q=85",
-    "tag": { "fr": "Signature", "en": "Signature" }
+    "tag": {
+      "fr": "Sélection premium",
+      "en": "Premium selection"
+    }
   },
   {
-    "id": "tea-02",
-    "name": { "fr": "Thé vert délicat", "en": "Delicate Green Tea" },
-    "category": { "fr": "Thé vert", "en": "Green tea" },
-    "description": {
-      "fr": "Une sélection fraîche et délicate, à compléter avec les références disponibles.",
-      "en": "A fresh and delicate selection, to be completed with available products."
+    "id": "sencha-fuji",
+    "name": {
+      "fr": "Sencha Fuji",
+      "en": "Sencha Fuji"
     },
-    "price": 0,
-    "currency": "eur",
+    "category": {
+      "fr": "Thé vert japonais",
+      "en": "Japanese Green Tea"
+    },
+    "description": {
+      "fr": "Un thé vert japonais frais et délicat.",
+      "en": "A fresh and delicate Japanese green tea."
+    },
+    "price": 18000,
+    "currency": "sek",
     "weight": "100 g",
     "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=1000&q=85",
-    "tag": { "fr": "Sélection", "en": "Selection" }
+    "tag": {
+      "fr": "Sélection japonaise",
+      "en": "Japanese selection"
+    }
   },
   {
-    "id": "tea-03",
-    "name": { "fr": "Infusion botanique", "en": "Botanical Infusion" },
-    "category": { "fr": "Infusion", "en": "Herbal infusion" },
-    "description": {
-      "fr": "Une infusion parfumée pour les instants de détente.",
-      "en": "A fragrant infusion for moments of relaxation."
+    "id": "matcha",
+    "name": {
+      "fr": "Matcha",
+      "en": "Matcha"
     },
-    "price": 0,
-    "currency": "eur",
-    "weight": "80 g",
-    "image": "https://images.unsplash.com/photo-1563911892437-1f-bf0e?auto=format&fit=crop&w=1000&q=85",
-    "tag": { "fr": "À découvrir", "en": "Discover" }
+    "category": {
+      "fr": "Thé vert en poudre",
+      "en": "Powdered Green Tea"
+    },
+    "description": {
+      "fr": "Un thé vert japonais en poudre, au caractère intense.",
+      "en": "A Japanese powdered green tea with an intense character."
+    },
+    "price": 37000,
+    "currency": "sek",
+    "weight": "30 g",
+    "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=1000&q=85",
+    "tag": {
+      "fr": "Trésor japonais",
+      "en": "Japanese treasure"
+    }
+  },
+  {
+    "id": "teng-chong-silver-needle",
+    "name": {
+      "fr": "Teng Chong Silver Needle",
+      "en": "Teng Chong Silver Needle"
+    },
+    "category": {
+      "fr": "Thé blanc",
+      "en": "White Tea"
+    },
+    "description": {
+      "fr": "Un thé blanc délicat aux bourgeons argentés.",
+      "en": "A delicate white tea made from silvery buds."
+    },
+    "price": 34000,
+    "currency": "sek",
+    "weight": "100 g",
+    "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=1000&q=85",
+    "tag": {
+      "fr": "Thé d'exception",
+      "en": "Exceptional tea"
+    }
   }
 ]
