@@ -1,0 +1,8 @@
+{
+  "name": "chaikhana-luxe-tea-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CHAIKHANA bilingual premium tea shop",
+  "scripts": { "start": "node server.js", "dev": "node server.js" },
+  "dependencies": { "dotenv": "^16.4.5", "express": "^4.21.2", "stripe": "^17.5.0" }
+}

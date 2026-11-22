@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tea-01",
+    "name": { "fr": "Thé signature CHAIKHANA", "en": "CHAIKHANA Signature Tea" },
+    "category": { "fr": "Création maison", "en": "House blend" },
+    "description": {
+      "fr": "Un mélange signature à personnaliser selon votre sélection de thés.",
+      "en": "A signature blend to be customized with your selected teas."
+    },
+    "price": 0,
+    "currency": "eur",
+    "weight": "100 g",
+    "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=1000&q=85",
+    "tag": { "fr": "Signature", "en": "Signature" }
+  },
+  {
+    "id": "tea-02",
+    "name": { "fr": "Thé vert délicat", "en": "Delicate Green Tea" },
+    "category": { "fr": "Thé vert", "en": "Green tea" },
+    "description": {
+      "fr": "Une sélection fraîche et délicate, à compléter avec les références disponibles.",
+      "en": "A fresh and delicate selection, to be completed with available products."
+    },
+    "price": 0,
+    "currency": "eur",
+    "weight": "100 g",
+    "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=1000&q=85",
+    "tag": { "fr": "Sélection", "en": "Selection" }
+  },
+  {
+    "id": "tea-03",
+    "name": { "fr": "Infusion botanique", "en": "Botanical Infusion" },
+    "category": { "fr": "Infusion", "en": "Herbal infusion" },
+    "description": {
+      "fr": "Une infusion parfumée pour les instants de détente.",
+      "en": "A fragrant infusion for moments of relaxation."
+    },
+    "price": 0,
+    "currency": "eur",
+    "weight": "80 g",
+    "image": "https://images.unsplash.com/photo-1563911892437-1f-bf0e?auto=format&fit=crop&w=1000&q=85",
+    "tag": { "fr": "À découvrir", "en": "Discover" }
+  }
+]
