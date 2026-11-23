@@ -17,8 +17,8 @@
     "price": 21000,
     "currency": "eur",
     "weight": "100 g",
-    "image" "auto=format&fit=crop&w=1000&q=85"
-    
+    "image": "/milky-oolong.jpg",
+    "tag": {
       "fr": "Sélection premium",
       "en": "Premium selection"
     }
@@ -40,8 +40,8 @@
     "price": 18000,
     "currency": "eur",
     "weight": "100 g",
-    "image":auto=format&fit=crop&w=1000&q=85"
-  
+    "image": "/sencha-fuji.jpg",
+    "tag": {
       "fr": "Sélection japonaise",
       "en": "Japanese selection"
     }
@@ -63,8 +63,8 @@
     "price": 37000,
     "currency": "eur",
     "weight": "30 g",
-   auto=format&fit=crop&w=1000&q=85
-    
+    "image": "/matcha.jpg",
+    "tag": {
       "fr": "Trésor japonais",
       "en": "Japanese treasure"
     }
@@ -86,11 +86,10 @@
     "price": 34000,
     "currency": "eur",
     "weight": "100 g",
-    "image""auto=format&fit=crop&w=1000&q=85",
-    
+    "image": "/silver-needle.jpg",
+    "tag": {
       "fr": "Thé d'exception",
       "en": "Exceptional tea"
     }
   }
 ]
-
