@@ -53,6 +53,7 @@ async function checkout(){
  $("#checkout").disabled=true;
  try{const r=await fetch("/create-checkout-session",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({items})});const data=await r.json();if(!r.ok)throw new Error(data.error);location.href=data.url}catch(e){toast(e.message)}finally{$("#checkout").disabled=false}
 }
+
 async function init(){
  $("#year").textContent=new Date().getFullYear();
  try{products=await fetch("/api/products").then(r=>r.json())}catch(e){products=[]}
