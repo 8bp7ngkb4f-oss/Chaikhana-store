@@ -46,8 +46,7 @@ function renderCart(){
 }
 function openCart(v){$("#cartDrawer").classList.toggle("show",v);$("#cartBackdrop").classList.toggle("show",v)}
 let toastTimer;function toast(msg){const el=$("#toast");el.textContent=msg;el.classList.add("show");clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove("show"),2800)}
- function checkout(){
- const items=Object.entries(cart).map(([id,quantity])=>({id,quantity}));
+ function checkout(){const items=Object.entries(cart).map(([id,quantity])=>({id,quantity}));
  if(!items.length)return;
  if(items.some(x=>{const p=products.find(p=>p.id===x.id);return !p||p.price<=0})){toast(t("priceMissing"));return}
  $("#checkout").disabled=true;
