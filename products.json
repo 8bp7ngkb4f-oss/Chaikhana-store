@@ -91,5 +91,337 @@
       "fr": "Thé d'exception",
       "en": "Exceptional tea"
     }
-  }
+  },
+  
+,
+{
+  "id": "earl-grey",
+  "name": {"fr": "Earl Grey", "en": "Earl Grey"},
+  "category": {"fr": "Thé noir", "en": "Black Tea"},
+  "description": {"fr": "Un thé noir raffiné parfumé à la bergamote.", "en": "A refined black tea scented with bergamot."},
+  "price": 18000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/earl-grey.jpg",
+  "tag": {"fr": "Grand classique", "en": "Classic selection"}
+},
+{
+  "id": "english-breakfast",
+  "name": {"fr": "English Breakfast", "en": "English Breakfast"},
+  "category": {"fr": "Thé noir", "en": "Black Tea"},
+  "description": {"fr": "Un mélange corsé idéal pour le petit-déjeuner.", "en": "A full-bodied blend ideal for breakfast."},
+  "price": 17000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/english-breakfast.jpg",
+  "tag": {"fr": "Classique", "en": "Classic"}
+},
+{
+  "id": "assam",
+  "name": {"fr": "Assam", "en": "Assam"},
+  "category": {"fr": "Thé noir", "en": "Black Tea"},
+  "description": {"fr": "Un thé indien puissant aux notes maltées.", "en": "A strong Indian tea with malty notes."},
+  "price": 19000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/assam.jpg",
+  "tag": {"fr": "Origine indienne", "en": "Indian origin"}
+},
+{
+  "id": "ceylon",
+  "name": {"fr": "Ceylon", "en": "Ceylon"},
+  "category": {"fr": "Thé noir", "en": "Black Tea"},
+  "description": {"fr": "Un thé noir du Sri Lanka, frais et équilibré.", "en": "A fresh and balanced black tea from Sri Lanka."},
+  "price": 18000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/ceylon.jpg",
+  "tag": {"fr": "Origine premium", "en": "Premium origin"}
+},
+{
+  "id": "yunnan-golden",
+  "name": {"fr": "Yunnan Golden", "en": "Yunnan Golden"},
+  "category": {"fr": "Thé noir", "en": "Black Tea"},
+  "description": {"fr": "Un thé chinois élégant aux notes douces et miellées.", "en": "An elegant Chinese tea with sweet honey notes."},
+  "price": 28000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/yunnan-golden.jpg",
+  "tag": {"fr": "Sélection prestige", "en": "Prestige selection"}
+},
+{
+  "id": "lapsang-souchong",
+  "name": {"fr": "Lapsang Souchong", "en": "Lapsang Souchong"},
+  "category": {"fr": "Thé noir fumé", "en": "Smoked Black Tea"},
+  "description": {"fr": "Un thé chinois au caractère intensément fumé.", "en": "A Chinese tea with an intensely smoky character."},
+  "price": 22000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/lapsang-souchong.jpg",
+  "tag": {"fr": "Caractère unique", "en": "Unique character"}
+},
+{
+  "id": "jasmine-pearl",
+  "name": {"fr": "Jasmine Pearl", "en": "Jasmine Pearl"},
+  "category": {"fr": "Thé vert", "en": "Green Tea"},
+  "description": {"fr": "Des perles de thé vert délicatement parfumées au jasmin.", "en": "Green tea pearls delicately scented with jasmine."},
+  "price": 27000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/jasmine-pearl.jpg",
+  "tag": {"fr": "Sélection florale", "en": "Floral selection"}
+},
+{
+  "id": "genmaicha",
+  "name": {"fr": "Genmaicha", "en": "Genmaicha"},
+  "category": {"fr": "Thé vert japonais", "en": "Japanese Green Tea"},
+  "description": {"fr": "Un thé vert japonais aux notes de riz grillé.", "en": "Japanese green tea with roasted rice notes."},
+  "price": 21000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/genmaicha.jpg",
+  "tag": {"fr": "Tradition japonaise", "en": "Japanese tradition"}
+},
+{
+  "id": "moroccan-mint",
+  "name": {"fr": "Moroccan Mint", "en": "Moroccan Mint"},
+  "category": {"fr": "Thé vert à la menthe", "en": "Mint Green Tea"},
+  "description": {"fr": "Un thé vert rafraîchissant à la menthe.", "en": "A refreshing green tea with mint."},
+  "price": 18000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/moroccan-mint.jpg",
+  "tag": {"fr": "Inspiré du Maroc", "en": "Moroccan inspiration"}
+},
+{
+  "id": "gunpowder",
+  "name": {"fr": "Gunpowder", "en": "Gunpowder"},
+  "category": {"fr": "Thé vert chinois", "en": "Chinese Green Tea"},
+  "description": {"fr": "Un thé vert aux feuilles roulées en petites perles.", "en": "A green tea with leaves rolled into small pearls."},
+  "price": 17000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/gunpowder.jpg",
+  "tag": {"fr": "Tradition chinoise", "en": "Chinese tradition"}
+},
+{
+  "id": "dragon-well",
+  "name": {"fr": "Dragon Well", "en": "Dragon Well"},
+  "category": {"fr": "Thé vert chinois", "en": "Chinese Green Tea"},
+  "description": {"fr": "Un thé vert délicat aux notes végétales et grillées.", "en": "A delicate green tea with vegetal and roasted notes."},
+  "price": 29000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/dragon-well.jpg",
+  "tag": {"fr": "Grand cru chinois", "en": "Chinese grand cru"}
+},
+{
+  "id": "gyokuro",
+  "name": {"fr": "Gyokuro", "en": "Gyokuro"},
+  "category": {"fr": "Thé vert japonais", "en": "Japanese Green Tea"},
+  "description": {"fr": "Un thé japonais précieux aux notes douces et umami.", "en": "A precious Japanese tea with sweet umami notes."},
+  "price": 42000,
+  "currency": "eur",
+  "weight": "50 g",
+  "image": "/gyokuro.jpg",
+  "tag": {"fr": "Collection prestige", "en": "Prestige collection"}
+},
+{
+  "id": "tie-guan-yin",
+  "name": {"fr": "Tie Guan Yin", "en": "Tie Guan Yin"},
+  "category": {"fr": "Thé Oolong", "en": "Oolong Tea"},
+  "description": {"fr": "Un oolong chinois aux notes florales délicates.", "en": "A Chinese oolong with delicate floral notes."},
+  "price": 30000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/tie-guan-yin.jpg",
+  "tag": {"fr": "Trésor chinois", "en": "Chinese treasure"}
+},
+{
+  "id": "da-hong-pao",
+  "name": {"fr": "Da Hong Pao", "en": "Da Hong Pao"},
+  "category": {"fr": "Thé Oolong", "en": "Oolong Tea"},
+  "description": {"fr": "Un oolong prestigieux aux notes boisées et minérales.", "en": "A prestigious oolong with woody and mineral notes."},
+  "price": 45000,
+  "currency": "eur",
+  "weight": "50 g",
+  "image": "/da-hong-pao.jpg",
+  "tag": {"fr": "Grand prestige", "en": "Prestige tea"}
+},
+{
+  "id": "oriental-beauty",
+  "name": {"fr": "Oriental Beauty", "en": "Oriental Beauty"},
+  "category": {"fr": "Thé Oolong", "en": "Oolong Tea"},
+  "description": {"fr": "Un oolong élégant aux notes fruitées et miellées.", "en": "An elegant oolong with fruity and honey notes."},
+  "price": 38000,
+  "currency": "eur",
+  "weight": "50 g",
+  "image": "/oriental-beauty.jpg",
+  "tag": {"fr": "Sélection rare", "en": "Rare selection"}
+},
+{
+  "id": "peach-oolong",
+  "name": {"fr": "Peach Oolong", "en": "Peach Oolong"},
+  "category": {"fr": "Thé Oolong aromatisé", "en": "Flavoured Oolong Tea"},
+  "description": {"fr": "Un oolong délicat aux arômes de pêche.", "en": "A delicate oolong with peach aromas."},
+  "price": 24000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/peach-oolong.jpg",
+  "tag": {"fr": "Favori fruité", "en": "Fruity favourite"}
+},
+{
+  "id": "white-peony",
+  "name": {"fr": "White Peony", "en": "White Peony"},
+  "category": {"fr": "Thé blanc", "en": "White Tea"},
+  "description": {"fr": "Un thé blanc doux aux notes florales.", "en": "A soft white tea with floral notes."},
+  "price": 29000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/white-peony.jpg",
+  "tag": {"fr": "Délicatesse", "en": "Delicate selection"}
+},
+{
+  "id": "rooibos-vanilla",
+  "name": {"fr": "Rooibos Vanilla", "en": "Rooibos Vanilla"},
+  "category": {"fr": "Rooibos", "en": "Rooibos"},
+  "description": {"fr": "Un rooibos naturellement sans caféine aux notes de vanille.", "en": "A naturally caffeine-free rooibos with vanilla notes."},
+  "price": 18000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/rooibos-vanilla.jpg",
+  "tag": {"fr": "Douceur", "en": "Sweet selection"}
+},
+{
+  "id": "hibiscus",
+  "name": {"fr": "Hibiscus", "en": "Hibiscus"},
+  "category": {"fr": "Infusion", "en": "Herbal Infusion"},
+  "description": {"fr": "Une infusion florale acidulée à la belle couleur rouge.", "en": "A tangy floral infusion with a beautiful red colour."},
+  "price": 16000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/hibiscus.jpg",
+  "tag": {"fr": "Collection florale", "en": "Floral collection"}
+},
+{
+  "id": "lemon-ginger",
+  "name": {"fr": "Lemon Ginger", "en": "Lemon Ginger"},
+  "category": {"fr": "Infusion", "en": "Herbal Infusion"},
+  "description": {"fr": "Une infusion au citron et au gingembre.", "en": "A lemon and ginger herbal infusion."},
+  "price": 17000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/lemon-ginger.jpg",
+  "tag": {"fr": "Notes épicées", "en": "Spiced selection"}
+},
+{
+  "id": "chamomile",
+  "name": {"fr": "Chamomile", "en": "Chamomile"},
+  "category": {"fr": "Infusion florale", "en": "Floral Infusion"},
+  "description": {"fr": "Une infusion douce à base de fleurs de camomille.", "en": "A gentle infusion made from chamomile flowers."},
+  "price": 16000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/chamomile.jpg",
+  "tag": {"fr": "Douceur florale", "en": "Floral delight"}
+},
+{
+  "id": "peppermint",
+  "name": {"fr": "Peppermint", "en": "Peppermint"},
+  "category": {"fr": "Infusion", "en": "Herbal Infusion"},
+  "description": {"fr": "Une infusion de menthe poivrée fraîche et intense.", "en": "A fresh and intense peppermint infusion."},
+  "price": 16000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/peppermint.jpg",
+  "tag": {"fr": "Fraîcheur naturelle", "en": "Natural freshness"}
+},
+{
+  "id": "butterfly-pea",
+  "name": {"fr": "Butterfly Pea", "en": "Butterfly Pea"},
+  "category": {"fr": "Infusion florale", "en": "Floral Infusion"},
+  "description": {"fr": "Une infusion de fleurs bleues spectaculaire.", "en": "A striking infusion made from blue flowers."},
+  "price": 22000,
+  "currency": "eur",
+  "weight": "50 g",
+  "image": "/butterfly-pea.jpg",
+  "tag": {"fr": "Collection exclusive", "en": "Exclusive collection"}
+},
+{
+  "id": "turkish-apple",
+  "name": {"fr": "Turkish Apple", "en": "Turkish Apple"},
+  "category": {"fr": "Infusion fruitée", "en": "Fruit Infusion"},
+  "description": {"fr": "Une infusion fruitée aux délicieuses notes de pomme.", "en": "A fruity infusion with delicious apple notes."},
+  "price": 18000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/turkish-apple.jpg",
+  "tag": {"fr": "Saveur fruitée", "en": "Fruity flavour"}
+},
+{
+  "id": "masala-chai",
+  "name": {"fr": "Masala Chai", "en": "Masala Chai"},
+  "category": {"fr": "Thé noir épicé", "en": "Spiced Black Tea"},
+  "description": {"fr": "Un thé noir traditionnel aux épices chaleureuses.", "en": "A traditional black tea with warming spices."},
+  "price": 21000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/masala-chai.jpg",
+  "tag": {"fr": "Tradition indienne", "en": "Indian tradition"}
+},
+{
+  "id": "sakura",
+  "name": {"fr": "Sakura", "en": "Sakura"},
+  "category": {"fr": "Thé parfumé", "en": "Flavoured Tea"},
+  "description": {"fr": "Un mélange délicat inspiré des fleurs de cerisier japonaises.", "en": "A delicate blend inspired by Japanese cherry blossoms."},
+  "price": 24000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/sakura.jpg",
+  "tag": {"fr": "Édition florale", "en": "Floral edition"}
+},
+{
+  "id": "tropical-fruit",
+  "name": {"fr": "Tropical Fruit", "en": "Tropical Fruit"},
+  "category": {"fr": "Mélange fruité", "en": "Fruit Blend"},
+  "description": {"fr": "Un mélange exotique aux saveurs de fruits tropicaux.", "en": "An exotic blend of tropical fruit flavours."},
+  "price": 19000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/tropical-fruit.jpg",
+  "tag": {"fr": "Évasion tropicale", "en": "Tropical escape"}
+},
+{
+  "id": "rose-garden",
+  "name": {"fr": "Rose Garden", "en": "Rose Garden"},
+  "category": {"fr": "Mélange floral", "en": "Floral Blend"},
+  "description": {"fr": "Un mélange parfumé aux notes délicates de rose.", "en": "A fragrant blend with delicate rose notes."},
+  "price": 23000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/rose-garden.jpg",
+  "tag": {"fr": "Élégance florale", "en": "Floral elegance"}
+},
+{
+  "id": "lavender-dream",
+  "name": {"fr": "Lavender Dream", "en": "Lavender Dream"},
+  "category": {"fr": "Mélange floral", "en": "Floral Blend"},
+  "description": {"fr": "Un mélange délicat aux notes parfumées de lavande.", "en": "A delicate blend with fragrant lavender notes."},
+  "price": 22000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/lavender-dream.jpg",
+  "tag": {"fr": "Collection signature", "en": "Signature collection"}
+},
+{
+  "id": "forest-berries",
+  "name": {"fr": "Forest Berries", "en": "Forest Berries"},
+  "category": {"fr": "Mélange fruité", "en": "Fruit Blend"},
+  "description": {"fr": "Un mélange gourmand aux arômes de fruits rouges.", "en": "A delicious blend with red berry aromas."},
+  "price": 20000,
+  "currency": "eur",
+  "weight": "100 g",
+  "image": "/forest-berries.jpg",
+  "tag": {"fr": "Favori fruité", "en": "Fruity favourite"}
+}
 ]
