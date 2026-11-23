@@ -422,5 +422,28 @@
   "weight": "100 g",
   "image": "/forest-berries.jpg",
   "tag": {"fr": "Favori fruité", "en": "Fruity favourite"}
+},
+{
+  "id": "orange-blossom-oolong",
+  "name": {
+    "fr": "Orange Blossom Oolong",
+    "en": "Orange Blossom Oolong"
+  },
+  "category": {
+    "fr": "Thé Oolong",
+    "en": "Oolong Tea"
+  },
+  "description": {
+    "fr": "Un thé Oolong délicat aux notes florales et d’orange.",
+    "en": "A delicate Oolong tea with floral and orange notes."
+  },
+  "price": 19,
+  "currency": "eur",
+  "weight": "100g",
+  "image": "/IMG_7601.jpeg",
+  "tag": {
+    "fr": "Exclusivité",
+    "en": "Exclusive"
+  }
 }
 ]
