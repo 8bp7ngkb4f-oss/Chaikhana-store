@@ -46,12 +46,35 @@ function renderCart(){
 }
 function openCart(v){$("#cartDrawer").classList.toggle("show",v);$("#cartBackdrop").classList.toggle("show",v)}
 let toastTimer;function toast(msg){const el=$("#toast");el.textContent=msg;el.classList.add("show");clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove("show"),2800)}
- function checkout(){const items=Object.entries(cart).map(([id,quantity])=>({id,quantity}));
- if(!items.length)return;
- if(items.some(x=>{const p=products.find(p=>p.id===x.id);return !p||p.price<=0})){toast(t("priceMissing"));return}
- $("#checkout").disabled=true;
- try{const r=await fetch("/create-checkout-session",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({items})});const data=await r.json();if(!r.ok)throw new Error(data.error);location.href=data.url}catch(e){toast(e.message)}finally{$("#checkout").disabled=false}
+ 
+function checkout(){
+  const items = Object.entries(cart)
+    .filter(([id, quantity]) => quantity > 0)
+    .map(([id, quantity]) => ({
+      p: products.find(product => product.id === id),
+      quantity
+    }))
+    .filter(item => item.p);
+
+  if (!items.length) return;
+
+  const total = items.reduce(
+    (sum, item) => sum + item.p.price * item.quantity, 0
+  );
+
+  const lines = items.map(item =>
+    `- ${item.p.name[lang]} (${item.p.weight}) x ${item.quantity} : ${money(item.p.price * item.quantity, item.p.currency)}`
+  );
+
+  const message =
+    "Bonjour CHAIKHANA, je souhaite commander :\n" +
+    lines.join("\n") +
+    "\n\nTotal : " + money(total, items[0].p.currency);
+
+  location.href = "https://wa.me/" + WHATSAPP +
+    "?text=" + encodeURIComponent(message);
 }
+
 async function init(){
  $("#year").textContent=new Date().getFullYear();
  try{products=await fetch("/api/products").then(r=>r.json())}catch(e){products=[]}
