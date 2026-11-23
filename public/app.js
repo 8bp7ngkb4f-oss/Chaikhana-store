@@ -55,6 +55,7 @@ let toastTimer;function toast(msg){const el=$("#toast");el.textContent=msg;el.cl
 
 
 
+
 async function init(){
  $("#year").textContent=new Date().getFullYear();
  try{products=await fetch("/api/products").then(r=>r.json())}catch(e){products=[]}
