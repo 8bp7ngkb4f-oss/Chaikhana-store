@@ -652,5 +652,28 @@
     "fr": "Naturel",
     "en": "Natural"
   }
+},
+{
+  "id": "chaikhana-green-rose-orange",
+  "name": {
+    "fr": "Chaikhana Green Tea Rose and Orange",
+    "en": "Chaikhana Green Tea Rose and Orange"
+  },
+  "category": {
+    "fr": "Thé vert parfumé",
+    "en": "Flavoured Green Tea"
+  },
+  "description": {
+    "fr": "Un thé vert délicat aux notes florales de rose et aux accents fruités d'orange.",
+    "en": "A delicate green tea with floral rose notes and fruity hints of orange."
+  },
+  "price": 13,
+  "currency": "eur",
+  "weight": "100g",
+  "image": "/IMG_7610.jpeg",
+  "tag": {
+    "fr": "Exclusivité",
+    "en": "Exclusive"
+  }
 }
 ]
