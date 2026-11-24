@@ -606,7 +606,7 @@
     "fr": "Sélection",
     "en": "Selected"
   }
-}
+},
 {
   "id": "rooibos-red",
   "name": {
@@ -624,7 +624,7 @@
   "price": 10,
   "currency": "eur",
   "weight": "100g",
-  "image": "/IMG_7603.jpeg",
+  "image": "/IMG_7604.jpeg",
   "tag": {
     "fr": "Naturel",
     "en": "Natural"
@@ -647,7 +647,7 @@
   "price": 13,
   "currency": "eur",
   "weight": "100g",
-  "image": "/IMG_7610.jpeg",
+  "image": "/IMG_7606.jpeg",
   "tag": {
     "fr": "Exclusivité",
     "en": "Exclusive"
