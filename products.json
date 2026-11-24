@@ -585,6 +585,8 @@
   }
 },
 {
+ 
+{
   "id": "wild-georgian-black",
   "name": {
     "fr": "Wild Georgian Black Tea",
@@ -611,7 +613,7 @@
   "id": "rooibos-red",
   "name": {
     "fr": "Rooibos Red",
-    "en": "Red Rooibos",
+    "en": "Red Rooibos"
   },
   "category": {
     "fr": "Rooibos rouge",
