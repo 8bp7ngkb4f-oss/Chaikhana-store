@@ -624,29 +624,6 @@
   "price": 10,
   "currency": "eur",
   "weight": "100g",
-  "image": "/IMG_7604.jpeg",
-  "tag": {
-    "fr": "Naturel",
-    "en": "Natural"
-  }
-}
-{
-  "id": "rooibos-red",
-  "name": {
-    "fr": "Rooibos Red",
-    "en": "Red Rooibos",
-  },
-  "category": {
-    "fr": "Rooibos rouge",
-    "en": "Red Rooibos"
-  },
-  "description": {
-    "fr": "Une infusion rouge naturellement douce, aux notes rondes et chaleureuses, sans théine.",
-    "en": "A naturally sweet red infusion with smooth, warming notes, caffeine-free."
-  },
-  "price": 10,
-  "currency": "eur",
-  "weight": "100g",
   "image": "/IMG_7603.jpeg",
   "tag": {
     "fr": "Naturel",
