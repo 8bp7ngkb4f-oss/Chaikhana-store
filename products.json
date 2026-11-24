@@ -445,5 +445,212 @@
     "fr": "Exclusivité",
     "en": "Exclusive"
   }
+},
+{
+  "id": "chaikhana-christmas-black",
+  "name": {
+    "fr": "Chaikhana Christmas Black",
+    "en": "Chaikhana Christmas Black"
+  },
+  "category": {
+    "fr": "Thé noir",
+    "en": "Black Tea"
+  },
+  "description": {
+    "fr": "Un thé noir festif et chaleureux, idéal pour les moments de partage.",
+    "en": "A festive and warming black tea, perfect for sharing moments."
+  },
+  "price": 22,
+  "currency": "eur",
+  "weight": "100g",
+  "image": "/IMG_7609.jpeg",
+  "tag": {
+    "fr": "Exclusivité",
+    "en": "Exclusive"
+  }
+},
+{
+  "id": "ahinsa-ceylon",
+  "name": {
+    "fr": "Ahinsa Ceylon",
+    "en": "Ahinsa Ceylon"
+  },
+  "category": {
+    "fr": "Thé noir de Ceylan",
+    "en": "Ceylon Black Tea"
+  },
+  "description": {
+    "fr": "Un thé de Ceylan authentique, aux arômes riches et délicats.",
+    "en": "An authentic Ceylon tea with rich and delicate aromas."
+  },
+  "price": 13,
+  "currency": "eur",
+  "weight": "100g",
+  "image": "/IMG_7611.jpeg",
+  "tag": {
+    "fr": "Sélection",
+    "en": "Selected"
+  }
+},
+{
+  "id": "jasmine-pearls-green",
+  "name": {
+    "fr": "Jasmine Pearls Green",
+    "en": "Jasmine Pearls Green"
+  },
+  "category": {
+    "fr": "Thé vert au jasmin",
+    "en": "Jasmine Green Tea"
+  },
+  "description": {
+    "fr": "De délicates perles de thé vert parfumées naturellement au jasmin.",
+    "en": "Delicate green tea pearls naturally scented with jasmine."
+  },
+  "price": 32,
+  "currency": "eur",
+  "weight": "100g",
+  "image": "/IMG_7613.jpeg",
+  "tag": {
+    "fr": "Sélection premium",
+    "en": "Premium Selection"
+  }
+},
+{
+  "id": "wild-georgian-green",
+  "name": {
+    "fr": "Wild Georgian Green",
+    "en": "Wild Georgian Green"
+  },
+  "category": {
+    "fr": "Thé vert de Géorgie",
+    "en": "Wild Georgian Green Tea"
+  },
+  "description": {
+    "fr": "Un thé vert sauvage de Géorgie, aux notes végétales et délicates.",
+    "en": "A wild Georgian green tea with delicate vegetal notes."
+  },
+  "price": 18,
+  "currency": "eur",
+  "weight": "100g",
+  "image": "/IMG_7616.jpeg",
+  "tag": {
+    "fr": "Sélection",
+    "en": "Selected"
+  }
+},
+{
+  "id": "assam-golden-tips",
+  "name": {
+    "fr": "Assam Golden Tips",
+    "en": "Assam Golden Tips"
+  },
+  "category": {
+    "fr": "Thé noir Assam",
+    "en": "Assam Black Tea"
+  },
+  "description": {
+    "fr": "Un thé noir d'Assam généreux, aux notes maltées et aux précieuses pointes dorées.",
+    "en": "A full-bodied Assam black tea with malty notes and precious golden tips."
+  },
+  "price": 18,
+  "currency": "eur",
+  "weight": "100g",
+  "image": "/IMG_7619.jpeg",
+  "tag": {
+    "fr": "Sélection premium",
+    "en": "Premium Selection"
+  }
+},
+{
+  "id": "cui-min-white-tea-china",
+  "name": {
+    "fr": "Cui Min White Tea China",
+    "en": "Cui Min White Tea China"
+  },
+  "category": {
+    "fr": "Thé blanc chinois",
+    "en": "Chinese White Tea"
+  },
+  "description": {
+    "fr": "Un thé blanc chinois délicat, aux notes douces et raffinées.",
+    "en": "A delicate Chinese white tea with soft and refined notes."
+  },
+  "price": 25,
+  "currency": "eur",
+  "weight": "100g",
+  "image": "/IMG_7621.jpeg",
+  "tag": {
+    "fr": "Sélection premium",
+    "en": "Premium Selection"
+  }
+},
+{
+  "id": "wild-georgian-black",
+  "name": {
+    "fr": "Wild Georgian Black Tea",
+    "en": "Wild Georgian Black Tea"
+  },
+  "category": {
+    "fr": "Thé noir de Géorgie",
+    "en": "Georgian Black Tea"
+  },
+  "description": {
+    "fr": "Un thé noir géorgien authentique, aux arômes riches et chaleureux.",
+    "en": "An authentic Georgian black tea with rich and warming aromas."
+  },
+  "price": 18,
+  "currency": "eur",
+  "weight": "100g",
+  "image": "/IMG_7617.jpeg",
+  "tag": {
+    "fr": "Sélection",
+    "en": "Selected"
+  }
+},
+{
+  "id": "rooibos-red",
+  "name": {
+    "fr": "Rooibos Red",
+    "en": "Red Rooibos",
+  },
+  "category": {
+    "fr": "Rooibos rouge",
+    "en": "Red Rooibos"
+  },
+  "description": {
+    "fr": "Une infusion rouge naturellement douce, aux notes rondes et chaleureuses, sans théine.",
+    "en": "A naturally sweet red infusion with smooth, warming notes, caffeine-free."
+  },
+  "price": 10,
+  "currency": "eur",
+  "weight": "100g",
+  "image": "/IMG_7603.jpeg",
+  "tag": {
+    "fr": "Naturel",
+    "en": "Natural"
+  }
+}
+{
+  "id": "rooibos-red",
+  "name": {
+    "fr": "Rooibos Red",
+    "en": "Red Rooibos",
+  },
+  "category": {
+    "fr": "Rooibos rouge",
+    "en": "Red Rooibos"
+  },
+  "description": {
+    "fr": "Une infusion rouge naturellement douce, aux notes rondes et chaleureuses, sans théine.",
+    "en": "A naturally sweet red infusion with smooth, warming notes, caffeine-free."
+  },
+  "price": 10,
+  "currency": "eur",
+  "weight": "100g",
+  "image": "/IMG_7603.jpeg",
+  "tag": {
+    "fr": "Naturel",
+    "en": "Natural"
+  }
 }
 ]
