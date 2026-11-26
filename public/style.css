@@ -33,3 +33,51 @@
   background: #c5a45b;
   color: #183d32;
 }
+
+/* CHAIKHANA - Correction des textes de la bannière */
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 560px;
+  padding: 40px 24px 85px 0;
+}
+
+.hero h1 {
+  font-size: clamp(46px, 5.5vw, 76px);
+  line-height: 1.18;
+  margin: 18px 0 24px;
+}
+
+.hero-copy {
+  max-width: 390px;
+  line-height: 1.9;
+  margin: 0 0 28px;
+}
+
+.hero-note {
+  z-index: 3;
+}
+
+@media (max-width: 650px) {
+  .hero-content {
+    margin-left: 7%;
+    padding: 30px 7% 90px 0;
+  }
+
+  .hero h1 {
+    font-size: 46px;
+    line-height: 1.2;
+    margin: 16px 0 20px;
+  }
+
+  .hero-copy {
+    font-size: 12px;
+    line-height: 1.8;
+    margin-bottom: 24px;
+  }
+}
+
